@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+:root {
+    --main-bg-color: rgb(124, 66, 18);
+    --articles-heads-color: rgb(238, 48, 48);
+    --font1: 'Baloo Bhaina 2', cursive;
+    --font2: 'Roboto', sans-serif;
+    --font3: 'Itim', cursive;
+    --font4: 'Noto Sans TC', sans-serif;
+}
+.font1{
+    font-family: var(--font1);
+}
+.font2{
+    font-family: var(--font2);
+}
+.font3{
+    font-family: var(--font3);
+}
+.font4{
+    font-family: var(--font4);
+}
+.max-width-1{
+    max-width: 80vw;
+}
+.max-width-2 {
+    max-width: 60vw;
+}
+.m-auto {
+    margin: auto;
+}
+.my-2{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.mx-1 {
+    margin-left: 23px;
+    margin-right: 23px;
+}
+.btn{
+    padding: 0px 19px;
+    padding-top: 4px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-family: var(--font1);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.btn2 {
+    padding: 0px 19px;
+    padding-top: 4px;
+    font-size: 19px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-family: var(--font1);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.btn:hover {
+    color: white;
+    background-color: var(--main-bg-color);
+}
+.btn2:hover {
+    color: white;
+    background-color: var(--main-bg-color);
+}
+.form-input{
+    padding: 0px 5px;
+    padding-top: 4px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 0 13px;
+    font-family: var(--font1);
+}
+.form-box input, textarea{
+    width: 65vw;
+    padding: 3px 1px;
+    margin: 9px 0;
+    font-size: 28px;
+    font-family: var(--font3);
+    border: 1.5px solid black;
+    border-radius: 4px;
+}
+.text-area-height {
+    height: 23px;
+}
+.center {
+    text-align: center;
+}
+/* .form-input2{
+    padding: 0px 5px;
+    padding-top: 4px;
+    font-size: 16px;
+    /* border: 2px solid black; */
+    /* border-radius: 4px;
+    margin: 0 13px;
+    font-family: var(--font3);
+} */ 

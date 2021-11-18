@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigation {
+    font-family: var(--font1);
+    /* height : 85px; */
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: fixed; */
+}
+.content {
+    height : 100% ;
+    /* background-color: rgb(170, 214, 170); */
+    display: flex;
+    margin-top: 14px;
+    padding: 9px;
+    background-image: url('../img/coffee.jpeg');
+    border-radius: 13px;
+}
+.footer {
+    height : 65px;
+    background-color: var(--main-bg-color);
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bolder;
+    justify-content: center;
+    color: black;
+    flex-direction: column;
+}
+.nav-left {
+    font-size: 21px;
+    display: flex;
+}
+.nav-left span img {
+    width: 135px;
+    margin-top: 5px;
+    /* margin-bottom: 10px; */
+}
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0 60px;
+    font-weight: bolder;
+}
+.nav-left ul li {
+    list-style: none;
+    margin: 0 14px;
+    font-family: var(--font3);
+    font-size: 28px;
+    transition: all 0.4s ease-in-out;
+}
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+.nav-left ul li :hover{  
+    color: var(--main-bg-color);
+    font-weight: bolder;
+}
+.content-left{
+    font-family: var(--font1);
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+}
+.content-right {
+    /* width: 50%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-right img {
+    height: 315px;
+    border: 3px solid black;
+    border-radius: 178px;  
+}
+.home-articles{
+    /* height: 455px; */
+    border-radius: 13px;
+    background-color: rgb(243, 235, 235);
+    padding-top: 14px;
+    position: relative;
+    margin-top: 15px;
+}
+.year-box {
+    position: absolute;
+    height: 260px;
+    /* width: 230px; */
+    /* background-color: red; */
+    right: 100px;
+    top: 100px;
+}
+.year-box div {
+    margin: 12px 0px;
+    font-family: var(--font2);
+    font-size: 19px;
+}
+.home-items{
+    font-family: var(--font3);
+    display: flex;
+    padding: 20px;
+    margin: 25px;
+}
+.home-items img {
+    height: 304px;
+    width: 314px;
+}
+.home-items-content {
+    align-self: center;
+    padding: 25px;
+
+}
+.home-items-content a{
+    font-size: 22px;
+    text-decoration: none;
+    color: var(--articles-heads-color);
+}
+.home-items-content a:hover {
+    color: black;
+}
